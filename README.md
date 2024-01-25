@@ -14,7 +14,8 @@ SnapScreen is an innovative image preview application that empowers users to vis
 4. [Future Development Roadmap](#future-development-roadmap)
 5. [License](#license)
 6. [Acknowledgments](#acknowledgments)
-7.  [Special Thanks](#special-thanks)
+7. [Special Thanks](#special-thanks)
+8. [Deployment](#deployment)
 
 ## Features
 
