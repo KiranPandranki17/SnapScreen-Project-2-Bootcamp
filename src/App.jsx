@@ -13,24 +13,16 @@ import Home from "./Components/Home";
 
 import PropTypes from "prop-types";
 
-function HeaderWrapper({ children }) {
-  // You can add any logic here related to the header
-  return (
-    <div>
-      <Header/>
-      {children}
-    </div>
-  );
-}
-
-HeaderWrapper.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
 function App() {
+  const [searchQuery, setSearchQuery] = useState("");
   const [userQuery, setuserQuery] = useState("");
   const [randomImages, setRandomImages] = useState([]);
   const [url, setUrl] = useState("");
+
+  // Move handleSearch function here
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
 
   const userSearch = (query) => {
     setuserQuery(query);
@@ -42,6 +34,20 @@ function App() {
   };
 
   console.log(url);
+
+  function HeaderWrapper({ children }) {
+    // You can add any logic here related to the header
+    return (
+      <div>
+        <Header onSearch={handleSearch} />
+        {children}
+      </div>
+    );
+  }
+
+  HeaderWrapper.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
 
   return (
     <Router>
@@ -74,10 +80,7 @@ function App() {
           path="/search"
           element={
             <HeaderWrapper>
-              <Search
-                authorSearch={userSearch}
-                urlSearch={urlSearch}
-              />
+              <Search search={searchQuery} authorSearch={userSearch} urlSearch={urlSearch} />
             </HeaderWrapper>
           }
         />
