@@ -1,15 +1,15 @@
-import Header from "src/components/Navbar/Header";
-import Content from "src/components/LandingPage/contentR";
+import Header from "./components/Navbar/Header";
+import Content from "./components/LandingPage/contentR";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Search from "src/components/SearchPage/search";
+import Search from "./components/SearchPage/search";
 import { useState } from "react";
-import NotFound from "src/components/Notfound";
-import Author from "src/components/AuthorPage/author";
-import WallpaperGenerator from "src/components/DetailsPage/Details";
+import NotFound from "./components/Notfound";
+import Author from "./components/AuthorPage/author";
+import WallpaperGenerator from "./components/DetailsPage/Details";
 
-import LoginForm from "src/Components/auth-folder/LoginForm";
-import RegisterForm from "src/Components/auth-folder/RegisterForm";
-import Home from "src/Components/Home";
+import LoginForm from "./Components/auth-folder/LoginForm";
+import RegisterForm from "./Components/auth-folder/RegisterForm";
+import Home from "./Components/Home";
 
 import PropTypes from "prop-types";
 

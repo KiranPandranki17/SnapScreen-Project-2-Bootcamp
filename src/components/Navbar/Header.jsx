@@ -71,7 +71,7 @@ const Header = ({ onSearch }) => {
     <header className={`bg-gray-800 text-white p-4 flex justify-between items-stretch w-full`}>
       <div className="flex items-center">
         <NavLink to="/dashboard" end className="text-white">
-          <img src=" " alt="Logo" className="mr-4" />
+        <img width="50" height="50" src="https://img.icons8.com/color/48/000000/camera.png" alt="camera"/> {" "}
         </NavLink>
 
         <input
