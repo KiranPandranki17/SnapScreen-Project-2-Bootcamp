@@ -78,6 +78,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - Special thanks to the Unsplash API for providing a vast collection of high-quality images.
 
+## Deployment
+
+The SnapScreen app is deployed and accessible at https://snapscreen-wallpaper.netlify.app/. Check it out live!
+
 ---
 
 Happy Visualizing with SnapScreen! 🚀✨
