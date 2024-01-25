@@ -14,6 +14,7 @@ SnapScreen is an innovative image preview application that empowers users to vis
 4. [Future Development Roadmap](#future-development-roadmap)
 5. [License](#license)
 6. [Acknowledgments](#acknowledgments)
+7.  [Special Thanks](#special-thanks)
 
 ## Features
 
@@ -65,13 +66,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Special Thanks
 
-- **Professor [Dan Mueller]:** Gratitude to Professor [Dan Mueller] for the guidance, mentorship, and support throughout the development of SnapScreen.
+- **Professor:** Gratitude to Professor "Dan Mueller" for the guidance, mentorship, and support throughout the development of SnapScreen.
 
-- **Teaching Assistants:** A big thank you to all TAs for their valuable assistance and insights during the course.
+- **Teaching Assistants:** A big thank you to all TAs (Alameen Ipaye, Brittani Court, Ryan Lafazan, Samuel Cordova ) for their valuable assistance and insights during the course.
 
 - **Teammates:** Heartfelt appreciation to all my teammates who contributed their time, skills, and enthusiasm to make SnapScreen a successful project. Your collaboration has been invaluable.
-
-
+  
+- **Student Success Advisor:** Heartfelt thanks to "Yolanda Acona Hughes" for her continuous support, guidance, and encouragement. Your role in our success has been invaluable.
+  
 ## Acknowledgments
 
 - Special thanks to the Unsplash API for providing a vast collection of high-quality images.
